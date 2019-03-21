@@ -1,0 +1,184 @@
+@font-face
+{
+  font-family: 'DancingScript-Regular';
+  src: url('DancingScript-Regular.otf');
+}
+body
+{
+  background-color: #02010a;
+  font-family: DancingScript-Regular;
+  color: white;
+}
+a
+{
+  color: white;
+}
+header
+{
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: slidein 1s;
+  animation: head-animacion 3s;
+}
+.titulo
+{
+  font-family: DancingScript-Regular;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+#pag1
+{
+  text-decoration: none;
+}
+.body
+{
+  background: #82c3a6;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+.sec
+{
+  background: #d5c75f;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+#img1
+{
+  box-shadow: 10px 10px #82c3a6;
+  border: 2px solid black;
+  transition: 1s;
+}
+#img1:hover
+{
+	transform: rotate(10deg);
+}
+#img2
+{
+  box-shadow: 10px 10px #82c3a6;
+  border: 2px solid black;
+  transition: 1s;
+}
+#img2:hover
+{
+	transform: translate(20px,-5px);
+}
+#contenido
+{
+margin:0 auto;
+width:900px;
+}
+.primera
+{
+  width: 50%;
+}
+.segunda
+{
+  width: 50%;
+}
+@media only screen and (max-width: 900px) {
+
+#contenido{
+width:100%;
+}
+.body
+{
+  flex-direction: column;
+}
+.sec
+{
+  flex-direction: column;
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+.primera
+{
+  width: 100%;
+}
+.segunda
+{
+  width: 100%;
+}
+}
+#pie
+{
+  background:  #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  font-family: DancingScript-Regular;
+  color: black;
+}
+.cont
+{
+  width: 25%;
+  text-align: center;
+}
+.ter
+{
+  width: 25%;
+  text-align: center;
+}
+.red
+{
+  width: 25%;
+  text-align: center;
+}
+.der
+{
+  width: 25%;
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+
+#contenido{
+width:100%;
+}
+.cont
+{
+  width: 100%;
+  text-align: center;
+}
+.ter
+{
+  width: 100%;
+  text-align: center;
+}
+.red
+{
+  width: 100%;
+  text-align: center;
+}
+.der
+{
+  width: 100%;
+  text-align: center;
+}
+}
+@-webkit-keyframes head-animacion {
+0% {
+margin-top: 150%;
+}
+60% {
+margin-top: -5%;
+}
+100% {
+margin-top: 0%;
+}
+}

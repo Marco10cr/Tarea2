@@ -1,0 +1,226 @@
+@font-face
+{
+  font-family: 'DancingScript-Regular';
+  src: url('DancingScript-Regular.otf');
+}
+body
+{
+  background-color: #02010a;
+  color: white;
+  font-family: DancingScript-Regular;
+}
+a
+{
+  color: white;
+}
+header
+{
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: slidein 1s;
+  animation: head-animacion 3s;
+}
+.titulo
+{
+  font-family: DancingScript-Regular;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+#pag3
+{
+  text-decoration: none;
+}
+.body
+{
+  background: #82c3a6;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+.sec img
+{
+  margin: 5px;
+}
+.sec
+{
+  background: #d5c75f;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
+}
+.primera
+{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+.segunda
+{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+.tercera
+{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+.cuarta
+{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+.sexta
+{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+#contenido
+{
+margin:0 auto;
+width:900px;
+}
+.primera
+{
+  width: 30%;
+}
+.segunda
+{
+  width: 30%;
+}
+.tercera
+{
+  width: 30%;
+}
+.cuarta
+{
+  width: 30%;
+}
+.quinta
+{
+  width: 30%;
+}
+.sexta
+{
+  width: 30%;
+}
+@media only screen and (max-width: 900px) {
+
+#contenido{
+width:100%;
+}
+.body
+{
+  flex-direction: column;
+}
+.sec
+{
+  flex-direction: column;
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+.primera
+{
+  width: 80%;
+}
+.segunda
+{
+  width: 80%;
+}
+.tercera
+{
+  width: 80%;
+}
+.cuarta
+{
+  width: 80%;
+}
+.quinta
+{
+  width: 80%;
+}
+.sexta
+{
+  width: 80%;
+}
+}
+#pie
+{
+  background:  #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  font-family: DancingScript-Regular;
+  color: black;
+}
+.cont
+{
+  width: 25%;
+  text-align: center;
+}
+.ter
+{
+  width: 25%;
+  text-align: center;
+}
+.red
+{
+  width: 25%;
+  text-align: center;
+}
+.der
+{
+  width: 25%;
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+
+#contenido{
+width:100%;
+}
+.cont
+{
+  width: 100%;
+  text-align: center;
+}
+.ter
+{
+  width: 100%;
+  text-align: center;
+}
+.red
+{
+  width: 100%;
+  text-align: center;
+}
+.der
+{
+  width: 100%;
+  text-align: center;
+}
+}
+@-webkit-keyframes head-animacion {
+0% {
+margin-top: 150%;
+}
+60% {
+margin-top: -5%;
+}
+100% {
+margin-top: 0%;
+}
+}
